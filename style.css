@@ -1,0 +1,60 @@
+/* Font and Layout */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+  font-family: 'EB Garamond', Georgia, serif;
+  background-color: #ffffff;
+  color: #111111;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #001f3f; /* Navy tone */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #001f3f;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #001f3f;
+}
+
+p {
+  font-size: 1.1rem;
+}
